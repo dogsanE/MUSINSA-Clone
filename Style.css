@@ -1,0 +1,44 @@
+.banner {
+    display: grid;
+    grid-template-columns: 100px;
+    height: 60px;
+    text-align: center;
+}
+
+.logo {
+    display:grid;
+    grid-template-columns: 220px 170px 420px 80px 60px 60px 80px 60px 60px 60px 100px 80px;
+    grid-template-rows: 100px;
+    height: 70px;
+    width: 1500px;
+    background-color: black;
+    margin-top: 10px;
+}
+
+.q {
+    margin-top: 20px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 50px 50px;
+}
+
+h1 {
+    color : white;
+    margin: auto;
+    margin-left: 20px;
+    margin-top:10px;
+}
+
+h3 span:nth-child(1){
+    color : #34a853;
+}
+
+h3 {
+    color : white;
+    margin: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+}
